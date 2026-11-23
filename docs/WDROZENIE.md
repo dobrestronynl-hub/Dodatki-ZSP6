@@ -8,7 +8,7 @@
 - Miejsce na kopię wynikową: `ZSP6/dodatki/`.
 - Docelowy katalog podglądów: https://dobrestronynl-hub.github.io/ZSP6/dodatki/ .
 
-**Status: opublikowane i sprawdzone 23.11.2026.** Proces GitHub Pages zakończył się powodzeniem dla commita `e0a853c3eb9b427583e27756a99d02eb8e659df1` repozytorium `ZSP6`. Katalog i wszystkie osiem modułów zostały otwarte oraz przetestowane w przeglądarce pod publicznymi adresami. Szczegóły: [raport publikacji](QA-PUBLIKACJA.md).
+**Wcześniejsza publikacja:** GitHub Pages zakończyło się powodzeniem dla commita `e0a853c3eb9b427583e27756a99d02eb8e659df1` repozytorium `ZSP6`. [Historyczny raport publikacji](QA-PUBLIKACJA.md) dotyczy zestawu sprzed usunięcia edytora i dodania asystenta AI. Wynik sprawdzenia bieżącej wersji należy odnotować po jej wdrożeniu.
 
 Repozytorium dodatków pozostaje oddzielne. Przechowuje kod do rozwijania, opisy funkcji, zakres wyceny oraz testy. Repozytorium ZSP6 przechowuje kopię wynikową potrzebną istniejącemu hostingowi GitHub Pages. Moduły są osobnymi stronami, a główne wizualizacje nie ładują ich w sidebarze.
 
@@ -42,7 +42,7 @@ Sprawdź:
 - czy katalog i moduły otwierają interfejsy, a nie pliki źródłowe lub komunikat 404;
 - czy logo, style i skrypty ładują się z poprawnych ścieżek;
 - czy przycisk „Wróć do dodatków” otwiera wspólny katalog;
-- czy wybór kierunku, filtry, lokalny zapis ustawień i podgląd szkicu działają;
+- czy wybór kierunku, filtry, lokalny zapis ustawień i kontekst rozmowy asystenta, podgląd widżetu i eksport rozmowy TXT działają;
 - czy pliki TXT oraz ICS można pobrać;
 - czy układ jest czytelny na małym ekranie i nie przewija się poziomo;
 - czy główne wizualizacje nadal otwierają się pod dotychczasowymi adresami.
@@ -51,4 +51,4 @@ Szczegółowe scenariusze znajdują się w [instrukcji testowania](TESTOWANIE.md
 
 ## Granice demonstracji
 
-Publiczny hosting nie dodaje integracji z WordPressem, serwera, kont użytkowników ani usług wysyłki. Moduły zachowują opisany zakres demonstracyjny. Zaznaczenie checklisty nie składa wniosku, plik kalendarza nie rezerwuje miejsca, a szkic aktualności nie jest publikowany do CMS szkoły.
+Publiczny hosting nie dodaje integracji z WordPressem, serwera, kont użytkowników ani usług wysyłki. Moduły zachowują opisany zakres demonstracyjny. Zaznaczenie checklisty nie składa wniosku, plik kalendarza nie rezerwuje miejsca, a asystent korzysta z lokalnej bazy odpowiedzi, bez połączenia z modelem AI.
