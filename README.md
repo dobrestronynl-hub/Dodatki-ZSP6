@@ -4,20 +4,28 @@ Osiem działających demonstracji funkcjonalności dla Zespołu Szkół Ponadpod
 
 Wszystkie demonstracje są w jednym repozytorium `Dodatki-ZSP6`. Katalogi `moduly/<nazwa>` zawierają samodzielny HTML, CSS, JavaScript i logo. Można je rozwijać, wyceniać i przenosić oddzielnie. Nie wymagają kodu głównych wizualizacji ani pozostałych modułów. W głównej wizualizacji ZSP6 dodatki nie są już prezentowane w sidebarze.
 
+## Podgląd dodatków
+
+[Katalog interaktywnych dodatków](https://dobrestronynl-hub.github.io/ZSP6/dodatki/)
+
+**Status: opublikowane i sprawdzone 23.11.2026.** Katalog oraz wszystkie osiem demonstracji otwierają się pod publicznymi adresami. Sprawdzono podstawowe interakcje, zapis lokalny i pobieranie plików. [Raport weryfikacji online](docs/QA-PUBLIKACJA.md).
+
+Kod źródłowy i dokumentację utrzymujemy w osobnym repozytorium `Dodatki-ZSP6`. Gotowy pakiet statyczny trafia do katalogu `dodatki/` w repozytorium `ZSP6` i korzysta z jego istniejącej publikacji GitHub Pages. Dodatki otwierają się jako niezależne strony. Nie są wczytywane w sidebarze głównych wizualizacji.
+
 ## Wybierz funkcjonalność
 
 | Moduł | Do czego służy | Pliki i dokumentacja |
 | --- | --- | --- |
-| Asystent wyboru kierunku | Prowadzi od zainteresowania do konkretnej oferty i zasad rekrutacji. | [Demonstracja](moduly/asystent-kierunku/) · [Opis i testy](moduly/asystent-kierunku/README.md) |
-| Osobista checklista rekrutacji | Porządkuje kroki, zapamiętuje postęp dla obu szkół i eksportuje listę. | [Demonstracja](moduly/checklista-rekrutacji/) · [Opis i testy](moduly/checklista-rekrutacji/README.md) |
-| Dni otwarte i spotkania | Pokazuje termin oraz pobiera plik ICS do osobistego kalendarza. | [Demonstracja](moduly/dni-otwarte/) · [Opis i testy](moduly/dni-otwarte/README.md) |
-| Biblioteka dokumentów | Wyszukuje rzeczywiste materiały szkoły i filtruje je według odbiorcy. | [Demonstracja](moduly/biblioteka-dokumentow/) · [Opis i testy](moduly/biblioteka-dokumentow/README.md) |
-| Portfolio uczniów | Filtruje prace według dziedziny i udostępnia powiększony podgląd. | [Demonstracja](moduly/portfolio-uczniow/) · [Opis i testy](moduly/portfolio-uczniow/README.md) |
-| Panel ucznia i rodzica | Dostosowuje skróty do roli i pozwala przypinać potrzebne odnośniki. | [Demonstracja](moduly/panel-ucznia-rodzica/) · [Opis i testy](moduly/panel-ucznia-rodzica/README.md) |
-| Sprawy sekretariatu | Wyjaśnia, jak przygotować się do wybranej sprawy, i pobiera instrukcję. | [Demonstracja](moduly/sprawy-sekretariatu/) · [Opis i testy](moduly/sprawy-sekretariatu/README.md) |
-| Edytor aktualności | Pokazuje podgląd wpisu i eksportuje szkic do korekty. | [Demonstracja](moduly/edytor-aktualnosci/) · [Opis i testy](moduly/edytor-aktualnosci/README.md) |
+| Asystent wyboru kierunku | Prowadzi od zainteresowania do konkretnej oferty i zasad rekrutacji. | [Otwórz demonstrację](https://dobrestronynl-hub.github.io/ZSP6/dodatki/moduly/asystent-kierunku/index.html) · [Opis i testy](moduly/asystent-kierunku/README.md) |
+| Osobista checklista rekrutacji | Porządkuje kroki, zapamiętuje postęp dla obu szkół i eksportuje listę. | [Otwórz demonstrację](https://dobrestronynl-hub.github.io/ZSP6/dodatki/moduly/checklista-rekrutacji/index.html) · [Opis i testy](moduly/checklista-rekrutacji/README.md) |
+| Dni otwarte i spotkania | Pokazuje termin oraz pobiera plik ICS do osobistego kalendarza. | [Otwórz demonstrację](https://dobrestronynl-hub.github.io/ZSP6/dodatki/moduly/dni-otwarte/index.html) · [Opis i testy](moduly/dni-otwarte/README.md) |
+| Biblioteka dokumentów | Wyszukuje rzeczywiste materiały szkoły i filtruje je według odbiorcy. | [Otwórz demonstrację](https://dobrestronynl-hub.github.io/ZSP6/dodatki/moduly/biblioteka-dokumentow/index.html) · [Opis i testy](moduly/biblioteka-dokumentow/README.md) |
+| Portfolio uczniów | Filtruje prace według dziedziny i udostępnia powiększony podgląd. | [Otwórz demonstrację](https://dobrestronynl-hub.github.io/ZSP6/dodatki/moduly/portfolio-uczniow/index.html) · [Opis i testy](moduly/portfolio-uczniow/README.md) |
+| Panel ucznia i rodzica | Dostosowuje skróty do roli i pozwala przypinać potrzebne odnośniki. | [Otwórz demonstrację](https://dobrestronynl-hub.github.io/ZSP6/dodatki/moduly/panel-ucznia-rodzica/index.html) · [Opis i testy](moduly/panel-ucznia-rodzica/README.md) |
+| Sprawy sekretariatu | Wyjaśnia, jak przygotować się do wybranej sprawy, i pobiera instrukcję. | [Otwórz demonstrację](https://dobrestronynl-hub.github.io/ZSP6/dodatki/moduly/sprawy-sekretariatu/index.html) · [Opis i testy](moduly/sprawy-sekretariatu/README.md) |
+| Edytor aktualności | Pokazuje podgląd wpisu i eksportuje szkic do korekty. | [Otwórz demonstrację](https://dobrestronynl-hub.github.io/ZSP6/dodatki/moduly/edytor-aktualnosci/index.html) · [Opis i testy](moduly/edytor-aktualnosci/README.md) |
 
-Na GitHubie odnośnik „Demonstracja” otwiera katalog źródłowy. Po uruchomieniu projektu przez HTTP te same ścieżki otwierają interfejsy. Strona `index.html` jest wspólnym spisem funkcjonalności.
+Odnośniki „Otwórz demonstrację” prowadzą bezpośrednio do interfejsów pod ich docelowymi adresami publikacji. Odnośniki „Opis i testy” prowadzą do dokumentacji w repozytorium. Strona `index.html` jest wspólnym spisem funkcjonalności, a każdy moduł ma przycisk powrotu do katalogu.
 
 ## Jak ocenić zakres i wycenę
 
@@ -55,11 +63,13 @@ W każdym module dostępne są `QA.md`, `test-results.txt` i `layout-results.jso
 
 ## Publikacja w GitHub Pages
 
-Cała strona jest gotowa do publikacji bezpośrednio z gałęzi `main`, z katalogu głównego. W ustawieniach repozytorium wybierz **Settings → Pages → Build and deployment**. Ustaw **Source: Deploy from a branch**, **Branch: main**, **Folder: / (root)** i zapisz. Wbudowany proces GitHub Pages opublikuje katalog dodatków i wszystkie osiem modułów. Pierwsze włączenie Pages wymaga dostępu do ustawień repozytorium.
+Repozytorium `Dodatki-ZSP6` pozostaje źródłem kodu, dokumentacji i testów. Po kontroli oraz wykonaniu `python3 scripts/build.py` zawartość `dist/` jest kopiowana do `dodatki/` w repozytorium `ZSP6`. Jego istniejący proces GitHub Pages publikuje katalog pod adresem `https://dobrestronynl-hub.github.io/ZSP6/dodatki/`.
 
-Workflow `Sprawdzenie dodatkow ZSP6` sprawdza pliki, odnośniki, składnię, logikę i build po zmianach w `main` oraz w pull requestach. Nie włącza samodzielnie usługi Pages i nie wymaga sekretów. Katalog `dist/` jest również gotowym pakietem statycznym dla innego hostingu.
+Ten sposób publikacji nie wymaga włączania GitHub Pages dla `Dodatki-ZSP6`. W katalogu `ZSP6/dodatki/` znajduje się kopia wynikowa do hostingu. Zmiany funkcjonalności należy wprowadzać w repozytorium źródłowym, a następnie ponownie przygotować i opublikować pakiet.
 
-Po pierwszej publikacji wykonaj [kontrolę po wdrożeniu](docs/TESTOWANIE.md). Sam zapis plików w repozytorium ani zielony wynik testów nie oznacza, że Pages jest już aktywne.
+Workflow `Sprawdzenie dodatkow ZSP6` sprawdza pliki, odnośniki, składnię, logikę i build po zmianach w `main` oraz w pull requestach. Nie publikuje samodzielnie kopii w drugim repozytorium. [Instrukcja wdrożenia](docs/WDROZENIE.md) opisuje kolejność pracy i kontrolę po publikacji.
+
+Status bieżącego wdrożenia pozostaje oznaczony powyżej. Sam zapis plików w repozytorium albo zielony wynik testów nie potwierdza jeszcze dostępności publicznego podglądu.
 
 ## Co działa lokalnie, a co wymaga integracji
 

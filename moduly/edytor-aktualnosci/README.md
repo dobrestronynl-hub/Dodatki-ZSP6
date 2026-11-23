@@ -1,5 +1,11 @@
 # ZSP6. Edytor aktualności
 
+## Otwórz działającą demonstrację
+
+[Przetestuj funkcję w przeglądarce](https://dobrestronynl-hub.github.io/ZSP6/dodatki/moduly/edytor-aktualnosci/index.html)
+
+Publiczny podgląd pokazuje interfejs, opis zastosowania i instrukcję testowania. Nie wymaga pobierania kodu ani logowania.
+
 Samodzielna, lokalna demonstracja przygotowywania aktualności z podglądem. Projekt został wydzielony z wizualizacji ZSP6 i działa niezależnie od pozostałych funkcjonalności.
 
 ## Co robi
