@@ -33,4 +33,4 @@ Konsola aplikacji nie zgłosiła błędów podczas sprawdzenia. W logach środow
 
 To demonstracja lokalnej bazy odpowiedzi, bez modelu AI i zaplecza serwerowego. Testy dotyczą tej logiki i interfejsu. Nie są walidacją odpowiedzi modelu, formalnym audytem WCAG ani testem na fizycznym urządzeniu. Mobilny układ sprawdzono w responsywnym iframe przeglądarki, bez symulacji klawiatury systemu telefonu. Podgląd nie przechowuje rozmowy po odświeżeniu i nie aktualizuje automatycznie informacji szkoły.
 
-Wynik publikacji na GitHub Pages jest dokumentowany osobno po wdrożeniu. Historyczny raport wcześniejszej publikacji katalogu nie jest wynikiem testów tej aktualizacji.
+GitHub Pages zakończyło publikację powodzeniem, a katalog i asystent zostały sprawdzone online. [Raport publikacji tej aktualizacji](../../docs/QA-ASYSTENT-AI-PUBLIKACJA.md) opisuje publiczne adresy, eksport, kontekst i usunięcie edytora.

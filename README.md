@@ -8,7 +8,7 @@ Wszystkie demonstracje są w jednym repozytorium `Dodatki-ZSP6`. Katalogi `modul
 
 [Katalog interaktywnych dodatków](https://dobrestronynl-hub.github.io/ZSP6/dodatki/)
 
-Katalog jest publikowany pod powyższym adresem. Bieżący zestaw obejmuje asystenta AI oraz siedem pozostałych dodatków. Edytor aktualności został usunięty. [Raport weryfikacji online](docs/QA-PUBLIKACJA.md) opisuje wcześniejszą publikację z 23.11.2026 i nie potwierdza sam w sobie testów nowego asystenta.
+**Opublikowane i sprawdzone 23.11.2026.** Katalog obejmuje asystenta AI oraz siedem pozostałych dodatków. Edytor aktualności i wskazane sekcje katalogu zostały usunięte. [Bieżący raport weryfikacji online](docs/QA-ASYSTENT-AI-PUBLIKACJA.md) potwierdza publikację, rozmowę, kontekst, widżet, eksport TXT i usunięcie starego modułu. [Wcześniejszy raport](docs/QA-PUBLIKACJA.md) pozostaje dokumentacją poprzedniej wersji.
 
 Kod źródłowy i dokumentację utrzymujemy w osobnym repozytorium `Dodatki-ZSP6`. Gotowy pakiet statyczny trafia do katalogu `dodatki/` w repozytorium `ZSP6` i korzysta z jego istniejącej publikacji GitHub Pages. Dodatki otwierają się jako niezależne strony. Nie są wczytywane w sidebarze głównych wizualizacji.
 
@@ -57,7 +57,7 @@ python3 scripts/build.py
 
 Pierwsza komenda uruchamia testy logiki wszystkich ośmiu modułów. Kontrola projektu sprawdza strukturę i zależności statyczne, a build przygotowuje katalog `dist/` do publikacji. Komendy nie tworzą kont szkolnych, nie wysyłają wiadomości i nie zapisują danych kandydatów na serwerze.
 
-Pliki `QA.md`, `test-results.txt` i `layout-results.json` w dotychczasowych modułach zawierają wcześniejsze wyniki lokalnego sprawdzenia z 23.11.2026. Historyczna weryfikacja obejmowała osiem ówczesnych modułów i 48 kontroli układu w Chromium. Nie obejmuje nowego asystenta AI. Bieżący [raport kontroli asystenta i katalogu](moduly/asystent-ai/QA.md) obejmuje 32 zaliczone testy automatyczne (w tym 22 asystenta), 18 kontroli układu oraz interakcje w przeglądarce. Scenariusze znajdują się w [README modułu](moduly/asystent-ai/README.md). Publikowaną wersję należy sprawdzić po wdrożeniu.
+Pliki `QA.md`, `test-results.txt` i `layout-results.json` w dotychczasowych modułach zawierają wcześniejsze wyniki lokalnego sprawdzenia z 23.11.2026. Historyczna weryfikacja obejmowała osiem ówczesnych modułów i 48 kontroli układu w Chromium. Nie obejmuje nowego asystenta AI. Bieżący [raport kontroli asystenta i katalogu](moduly/asystent-ai/QA.md) obejmuje 32 zaliczone testy automatyczne (w tym 22 asystenta), 18 kontroli układu oraz interakcje w przeglądarce. Scenariusze znajdują się w [README modułu](moduly/asystent-ai/README.md). [Weryfikacja publikacji](docs/QA-ASYSTENT-AI-PUBLIKACJA.md) została wykonana po zakończeniu GitHub Pages.
 
 [Historyczny raport integracji katalogu](docs/QA-INTEGRACJA.md) dokumentuje dziewięć stron, nawigację, sześć szerokości katalogu i osiem ówczesnych modułów na małym ekranie. Po zmianie zestawu dodatków potrzebna jest osobna kontrola nowej wersji.
 

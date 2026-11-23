@@ -8,7 +8,7 @@
 - Miejsce na kopię wynikową: `ZSP6/dodatki/`.
 - Docelowy katalog podglądów: https://dobrestronynl-hub.github.io/ZSP6/dodatki/ .
 
-**Wcześniejsza publikacja:** GitHub Pages zakończyło się powodzeniem dla commita `e0a853c3eb9b427583e27756a99d02eb8e659df1` repozytorium `ZSP6`. [Historyczny raport publikacji](QA-PUBLIKACJA.md) dotyczy zestawu sprzed usunięcia edytora i dodania asystenta AI. Wynik sprawdzenia bieżącej wersji należy odnotować po jej wdrożeniu.
+**Bieżąca publikacja: sprawdzona 23.11.2026.** GitHub Pages zakończyło się powodzeniem dla commita `db6b0bc75fbd126cc2fc0d379f62294838c1b5c6` repozytorium `ZSP6`. Asystent, uproszczony katalog i usunięcie edytora zostały potwierdzone online. Szczegóły: [raport aktualizacji](QA-ASYSTENT-AI-PUBLIKACJA.md). [Raport poprzedniej wersji](QA-PUBLIKACJA.md) pozostaje historyczny.
 
 Repozytorium dodatków pozostaje oddzielne. Przechowuje kod do rozwijania, opisy funkcji, zakres wyceny oraz testy. Repozytorium ZSP6 przechowuje kopię wynikową potrzebną istniejącemu hostingowi GitHub Pages. Moduły są osobnymi stronami, a główne wizualizacje nie ładują ich w sidebarze.
 

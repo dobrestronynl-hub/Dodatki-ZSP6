@@ -1,0 +1,31 @@
+{
+  "catalogue": {
+    "url": "https://dobrestronynl-hub.github.io/ZSP6/dodatki/",
+    "modules": 8,
+    "removedSections": 0,
+    "retiredLinks": 0
+  },
+  "assistant": {
+    "url": "https://dobrestronynl-hub.github.io/ZSP6/dodatki/moduly/asystent-ai/index.html",
+    "course": true,
+    "context": true,
+    "widgetClosed": true,
+    "widgetReopened": true,
+    "preservedQuestions": 2
+  },
+  "export": {
+    "downloaded": true,
+    "containsContext": true,
+    "containsOfficialSource": true,
+    "demoLabel": true
+  },
+  "retiredEditor": {
+    "url": "https://dobrestronynl-hub.github.io/ZSP6/dodatki/moduly/edytor-aktualnosci/index.html",
+    "heading": "404"
+  },
+  "reset": {
+    "questions": 0,
+    "exportDisabled": true
+  },
+  "date": "2026-11-23"
+}
