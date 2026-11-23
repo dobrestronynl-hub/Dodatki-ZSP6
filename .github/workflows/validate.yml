@@ -1,0 +1,25 @@
+name: Sprawdzenie dodatkow ZSP6
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Pobierz kod
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - name: Sprawdz strony, zasoby, skladnie i logike modulow
+        run: python3 scripts/check.py
+      - name: Przygotuj statyczna publikacje
+        run: python3 scripts/build.py
